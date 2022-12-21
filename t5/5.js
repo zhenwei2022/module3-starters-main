@@ -92,4 +92,21 @@ const picArray = [
   },
 ];
 
-// add your code here
+ // <h2>title_from_picArray</h2>
+ // <figure>
+ //   <img src="medium_image_from_picArray" alt="title_from_picArray">
+  //    <figcaption>caption_from_picarray</figcaption>
+  //</figure>
+ // <p>description_from_picArray</p>
+//</article>
+
+document.getElementsByClassName('container').innerHTML = 'className="card"';
+const i = document.createElement('img');
+i.src = 'thumbnails/pic2.jpg';
+i.alt = picArray[1].description;
+const t = document.createTextNode(picArray[1].description);
+const p = document.createElement('p');
+p.appendChild(t);
+p.appendChild(i);
+div.appendChild(p);
+
