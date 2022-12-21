@@ -1,4 +1,4 @@
-const div = document.querySelector('#my_list');
+const div = document.querySelector('#target');
 const html =
         `<p>
             <li>First item</li>
@@ -6,6 +6,5 @@ const html =
             <li>Third item</li>
          </p>`;
 div.innerHTML = html;
-
 
 
